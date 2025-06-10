@@ -1,6 +1,6 @@
 data/
 dbs/
-results/
+# results/
 .DS_Store
 *.zip
 prepared-queries/
