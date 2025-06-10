@@ -1,0 +1,16 @@
+name: string-fingerprints
+channels:
+  - gurobi
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - gurobi=12.0.1
+  - libffi
+  - openssl
+  - readline
+  - ncurses
+  - tk
+  - setuptools
+  - wheel
+  - ca-certificates

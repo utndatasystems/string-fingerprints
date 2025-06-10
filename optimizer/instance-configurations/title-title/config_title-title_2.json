@@ -1,0 +1,27 @@
+{
+    "alphabet_option": "string.printable",
+    "bool_balance_bins": false,
+    "bool_linearize": true,
+    "file_path_patterns": "data/queries/hyper-job/title-title-queries.txt",
+    "file_path_words": "data/words/title-title-block-0.txt",
+    "fix_partition": false,
+    "gurobi_parameter": {
+        "threads": 4,
+        "timelimit": 300.0
+    },
+    "max_diff_bins": null,
+    "number_of_bins": 16,
+    "store_dir_results": "./results/title-title",
+    "store_dir_logfiles": "./logfiles/title-title",
+    "store_intermediate_solutions": true,
+    "subset_pattern_selection_method": "subset_patterns_shuffled_block",
+    "subset_pattern_selection_method_percentage": null,
+    "subset_pattern_selection_method_seed": 0,
+    "subset_pattern_nr_block": 0,
+    "subset_pattern_nr_patterns": 20,
+    "subset_word_selection_method": "subset_words_shuffled_block",
+    "subset_word_selection_method_nr_words": 50,
+    "subset_word_selection_method_seed": 0,
+    "subset_word_nr_block": 0,
+    "presolve_set_of_patterns_words": false
+}
