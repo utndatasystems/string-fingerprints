@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 To optimize the string fingerprints, we use a MIP formulation, found in `optimizer`.
 
-Some already-optimized partitions for IMDb's `title` column can be found in `results/title-title`.
+Some already-optimized partitions for IMDb's `title` column can be found in `results/`.
 
 # Paper Plots
 
@@ -26,7 +26,7 @@ python run-fpr.py
 
 ## Runtime Plot
 
-To get the runtimes, run the following:
+To prepare the queries, run the following:
 
 ```
 python run-speedup.py results/title-title 0
