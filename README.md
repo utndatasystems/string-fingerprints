@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 To optimize the string fingerprints, we use a MIP formulation, found in `optimizer`.
 
-Some already-optimized partitions for IMDb's `title` column can be found in `cache`.
+Some already-optimized partitions for IMDb's `title` column can be found in `results/title-title`.
 
 # Paper Plots
 
