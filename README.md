@@ -1,4 +1,4 @@
-# Instance-Optimized String Fingerprints
+# 🌰 Instance-Optimized String Fingerprints
 
 String fingerprints act as a secondary index to speed your table scans. If summarized at block level, they can be used as zonemaps to reduce I/O.
 
