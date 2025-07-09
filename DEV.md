@@ -23,7 +23,7 @@ python data-load.py
 
 ## Data
 
-Once the data has been loaded, we can generate data blocks:
+Once the data has been loaded, you can generate the data blocks:
 
 ```
 python data-gen.py
@@ -31,7 +31,7 @@ python data-gen.py
 
 ## Queries
 
-To generate queries:
+To generate the queries:
 
 ```
 python query-gen.py

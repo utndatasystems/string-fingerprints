@@ -16,15 +16,7 @@ Some already-optimized partitions for IMDb's `title` column can be found in `res
 
 # Paper Plots
 
-## `FPR` Plot
-
-To create the `FPR` plot, run the following:
-
-```
-python run-fpr.py
-```
-
-## Runtime Plot
+## Benchmark
 
 To prepare the queries, run the following:
 
@@ -36,4 +28,12 @@ The prepared queries are stored into `prepared-queries`. Now, run the queries us
 
 ```
 ./run-prepared.sh ~/.duckdb/cli/1.3.0/duckdb ./prepared-queries
+```
+
+## Computing FPRs
+
+To compute the FPRs associated to the optimized fingerprints, run the following:
+
+```
+python run-fpr.py
 ```

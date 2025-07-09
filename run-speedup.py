@@ -8,13 +8,8 @@ import pandas as pd
 import nutella
 from concurrent.futures import ProcessPoolExecutor
 
-CONFIG_FILE = './results/title-title/results_config_title-title_1-words-title-title-block-4-title-title-queries.json'
-BLOCK_FILE = './words/title-title-block-4.txt'
-
 NUMBER_OF_BINS = [4, 8, 16]
 TIME_LIMITS = [0.1, 1, 10, 100]
-
-config = utils.read_json(CONFIG_FILE)
 
 def prepare_table_queries(competitor, config_file, tn, cn, partition, time_limit, train_queries, test_queries, table_generalization=False, common_db_path=None):
   assert common_db_path is not None

@@ -24,10 +24,10 @@ class ConfigAnalyzer:
     train_queries = self.config['patterns_in_optimization']
 
     # Full block.
-    all_words = utils.read_words(self.config['configuration']['file_path_words'].replace('data/', ''))
+    all_words = utils.read_words(self.config['configuration']['file_path_words'].replace('../', ''))
 
     # All queries.
-    all_queries = utils.read_words(self.config['configuration']['file_path_patterns'].replace('data/', ''), strip_spaces=False)
+    all_queries = utils.read_words(self.config['configuration']['file_path_patterns'].replace('../', ''), strip_spaces=False)
 
     print(f'all_queries={all_queries}')
     print(f'train_qeuries={train_queries}')

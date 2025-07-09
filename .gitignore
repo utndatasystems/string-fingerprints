@@ -4,8 +4,10 @@ dbs/
 .DS_Store
 *.zip
 prepared-queries/
-# query-log/
+query-log/
 # cache/
+runtime.csv
+plots/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

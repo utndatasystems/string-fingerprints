@@ -10,7 +10,7 @@ DATA_DIR = 'metadata/imdb/'
 DB_FILE = f'dbs/{os.path.basename(os.path.normpath(DATA_DIR))}.duckdb'
 
 # Open DuckDB
-con = utils.open_duckdb(db_path=DB_FILE, read_only=True, threads=os.cpu_count())
+con = utils.open_duckdb(db_path=DB_FILE, read_only=True, num_threads=os.cpu_count())
 
 # For each table and column
 for tn, cn in utils.load_imdb_string_cols(QUERY_FILE):
