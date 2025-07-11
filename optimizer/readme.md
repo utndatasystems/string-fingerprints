@@ -33,14 +33,14 @@ How to get a free academic license:
 
 ### 3. Data Overview
 
-- Queries: Located in `./data/queries/hyper-job/`
-- Words: Located in `./data/words/`
+- Queries: Located in `../queries/hyper-job/`
+- Words: Located in `../words/`
 
 ### 4. Instance Configurations
 
 In `./instance-configurations/` you can find specific instance configurations for the query data combinations.
 
-For example, in the folder `company_name-name` you can find all instances for the queries `company_name-name-queries.txt` (see `./data/queries/hyper-job/`) and the data `company_name-name-block-xxx.txt` (see `./data/words/`).
+For example, in the folder `company_name-name` you can find all instances for the queries `company_name-name-queries.txt` (see `../queries/hyper-job/`) and the data `company_name-name-block-xxx.txt` (see `../words/`).
 
 An instance file, e.g., `config_company_name-name_0.json`, has the following structure:
 
@@ -52,8 +52,8 @@ An instance file, e.g., `config_company_name-name_0.json`, has the following str
   "bool_balance_bins": false,
   # equivalently linearize optimization as mentioned in the paper
   "bool_linearize": true,
-  "file_path_patterns": "data/queries/hyper-job/company_name-name-queries.txt",
-  "file_path_words": "data/words/company_name-name-block-0.txt",
+  "file_path_patterns": "../queries/hyper-job/company_name-name-queries.txt",
+  "file_path_words": "../words/company_name-name-block-0.txt",
   # depreciated config option
   "fix_partition": false,
   "gurobi_parameter": {
